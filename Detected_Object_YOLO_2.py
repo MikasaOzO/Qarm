@@ -14,7 +14,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 MODELS_DIR = SCRIPT_DIR / "models"
 
 CUSTOM_MODEL_PATH = MODELS_DIR / "models" / "fruits_strawberry_tomato_det" / "weights" / "best.pt"
-BANANA_MODEL_PATH = MODELS_DIR / "yolo26n.pt"
+BANANA_MODEL_PATH = SCRIPT_DIR / "yolo26n.pt"
 
 CONF_CUSTOM = 0.25
 CONF_BANANA = 0.35
